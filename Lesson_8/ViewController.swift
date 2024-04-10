@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         labelOne.text = "I'm here"
+        print("Are you here?")
     }
 
 
