@@ -8,10 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var labelOne: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Hello World")
+        labelOne.text = "I'm here"
     }
 
 
